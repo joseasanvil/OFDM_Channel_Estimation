@@ -110,28 +110,3 @@ A typical flowgraph for channel sounding might include:
 3. **UHD/USRP Source** or **Pluto SDR Source** → Receives the signal
 4. **QT GUI Time/Freq Sink** → Visualizes the received signal
 
-## Troubleshooting
-
-### Module not found in GRC
-
-If the block doesn't appear in GRC:
-1. Verify installation: `gnuradio-config-info --prefix`
-2. Check that the block YAML is in the correct location
-3. Restart GRC
-4. Check GRC preferences for block paths
-
-### Import errors
-
-If you get import errors in Python:
-1. Ensure the module is installed: `python3 -c "from delta_pulse import delta_pulse_source"`
-2. Check Python path includes GNU Radio modules
-3. Verify GNU Radio installation
-
-## License
-
-GPL-3.0-or-later
-
-## Author
-
-Created for delta pulse generation and SDR channel sounding applications.
-
