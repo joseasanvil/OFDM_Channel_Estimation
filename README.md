@@ -1,6 +1,6 @@
-# OFDM Channel Estimation using SDRs
+# Channel Estimation using SDRs
 
-This repository contains tools and modules for OFDM channel estimation using Software Defined Radios (SDRs), including a GNU Radio Out-of-Tree (OOT) module for delta pulse generation.
+This repository contains tools and modules for channel estimation using Software Defined Radios (SDRs), including a GNU Radio Out-of-Tree (OOT) module for delta pulse generation.
 
 ## Contents
 
